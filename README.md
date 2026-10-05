@@ -15,16 +15,17 @@ Install the package using npm:
 npm install rpi-io --save-optional
 ```
 *The `--save-optional` flag ensures that the packages are listed under `optionalDependencies` in your `package.json` file.*
-> [!Warning] Package not yet published
-> The WinFIO package is not yet published on the npm registry. Download and install it directly from the repository instead.
+
+> [!Warning]
+> **The WinFIO package is not yet published on the npm registry.** Download and install it directly from the repository instead.
 
 Make sure both **WinFIO** and **RPI-IO** are listed in `optionalDependencies` in your `package.json` file to prevent installation issues :
 ```json
 "dependencies": {
     "dotenv": "^18.0.5",
-    // ...
+    ...
 },
-    "optionalDependencies": {
+"optionalDependencies": {
     "@noahbleau/winfio": "^1.0.0",
     "rpi-io": "^1.0.0"
 }
@@ -42,20 +43,23 @@ if (process.platform === 'win32') {
 }
 ```
 
-> [!Note] Raspberry Pi Detection for RPI-IO
-> RPI-IO has it's own system to detect if the system is running on a Raspberry Pi, this package won't perform any such detection for Windows.
+> [!Note]
+> **RPI-IO has it's own system to detect if the system is running on a Raspberry Pi**, this package won't perform any such detection for Windows.
 
 ## Contributing
 
 Please make sure to follow the contribution guidelines before submitting any changes.
+
 See the [CONTRIBUTING.md](https://github.com/noahbleau/WinFIO/blob/main/CONTRIBUTING.md) file for contribution instructions.
 
 ## Code of Conduct
 
 Please make sure to read and follow the code of conduct before contributing to the project.
+
 See the [CODE_OF_CONDUCT.md](https://github.com/noahbleau/WinFIO/blob/main/CODE_OF_CONDUCT.md) file for the code of conduct.
 
 ## License
 
 This project is licensed under the MIT license, please make sure to read and understand the terms before reusing the code.
+
 See the [LICENSE](https://github.com/noahbleau/WinFIO/blob/main/LICENSE) file for more details.
