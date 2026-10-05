@@ -33,13 +33,13 @@ Make sure both **WinFIO** and **RPI-IO** are listed in `optionalDependencies` in
 
 In your project, you can now use a basic `if/else` statement to conditionally require **WinFIO** or **RPI-IO** based on the platform:
 ```javascript
-let RIO; // Variable for the I/O module (WinFIO or RPI-IO)
+let GPIO; // Variable for the GPIO module (WinFIO or RPI-IO)
 if (process.platform === 'win32') {
     // Using WinFIO for Windows platforms
-    RIO = require('@noahbleau/winfio').WinFIO;
+    GPIO = require('@noahbleau/winfio').WinFIO;
 } else {
     // Using RPI-IO for Linux platforms
-    RIO = require('rpi-io').RIO;
+    GPIO = require('rpi-io').RIO;
 }
 ```
 
