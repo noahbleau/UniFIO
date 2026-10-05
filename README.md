@@ -61,5 +61,6 @@ See the [CODE_OF_CONDUCT.md](https://github.com/noahbleau/WinFIO/blob/main/CODE_
 ## License
 
 This project is licensed under the MIT license, please make sure to read and understand the terms before reusing the code.
+Read more about Licensing in Open Source projects : [What are Open Source Licenses?](https://www.blackduck.com/glossary/what-are-open-source-licenses.html)
 
 See the [LICENSE](https://github.com/noahbleau/WinFIO/blob/main/LICENSE) file for more details.
