@@ -1,6 +1,6 @@
 {
   "name": "unifio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A mock implementation for RPI-IO on any platform for Node.js",
   "keywords": [
     "mock",
