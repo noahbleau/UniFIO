@@ -11,13 +11,10 @@ Before installing, make sure you have [Node.js](https://nodejs.org/) installed o
 
 Install the package using npm:
 ```bash
-# npm install @noahbleau/winfio --save-optional
+npm install @noahbleau/winfio --save-optional
 npm install rpi-io --save-optional
 ```
 *The `--save-optional` flag ensures that the packages are listed under `optionalDependencies` in your `package.json` file.*
-
-> [!Warning]
-> **The WinFIO package is not yet published on the npm registry.** Download and install it directly from the repository instead.
 
 Make sure both **WinFIO** and **RPI-IO** are listed in `optionalDependencies` in your `package.json` file to prevent installation issues :
 ```json
