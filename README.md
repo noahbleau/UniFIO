@@ -11,7 +11,7 @@ Before installing, make sure you have [Node.js](https://nodejs.org/) installed o
 
 Install the package using npm:
 ```bash
-npm install unifio --save-optional
+npm install @noahbleau/unifio --save-optional
 npm install rpi-io --save-optional
 ```
 *The `--save-optional` flag ensures that the packages are listed under `optionalDependencies` in your `package.json` file.*
@@ -23,17 +23,17 @@ Make sure both **UniFIO** and **RPI-IO** are listed in `optionalDependencies` in
     ...
 },
 "optionalDependencies": {
-    "unifio": "^1.0.0",
+    "@noahbleau/unifio": "^1.0.0",
     "rpi-io": "^1.0.0"
 }
 ```
 
 In your project, you can now use a basic `if/else` statement to conditionally require **UniFIO** or **RPI-IO** based on the platform:
 ```javascript
-let GPIO; // Variable for the GPIO module (WinFIO or RPI-IO)
+let GPIO; // Variable for the GPIO module
 if (process.platform === 'win32') {
     // Using UniFIO for Windows platforms
-    GPIO = require('unifio').UniFIO;
+    GPIO = require('@noahbleau/unifio').UniFIO;
 } else {
     // Using RPI-IO for Linux platforms
     GPIO = require('rpi-io').RIO;
