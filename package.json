@@ -1,18 +1,18 @@
 {
-  "name": "@noahbleau/winfio",
+  "name": "unifio",
   "version": "1.0.2",
-  "description": "A mock implementation for RPI-IO on Windows for Node.js",
+  "description": "A mock implementation for RPI-IO on any platform for Node.js",
   "keywords": [
     "mock",
     "rpi-io"
   ],
-  "homepage": "https://github.com/noahbleau/WinFIO#readme",
+  "homepage": "https://github.com/noahbleau/UniFIO#readme",
   "bugs": {
-    "url": "https://github.com/noahbleau/WinFIO/issues"
+    "url": "https://github.com/noahbleau/UniFIO/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahbleau/WinFIO.git"
+    "url": "git+https://github.com/noahbleau/UniFIO.git"
   },
   "license": "MIT",
   "author": "Noah Bleau <noah@hexoraw.com>",
