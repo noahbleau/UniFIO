@@ -2,9 +2,11 @@
 name: Publish to NPM
 
 on:
-  # Triggered when a new release is published
-  release:
-    types: [published]
+  # Triggered when a new tag is added
+  push:
+    tags:
+      - 'v*.*.*'
+      - '*.*.*'
   # Allows manual trigger via "Actions" tab
   workflow_dispatch:
 
