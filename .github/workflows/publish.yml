@@ -1,4 +1,4 @@
-# GitHub Actions workflow to publish the package to NPM when a new release is published
+# GitHub Actions workflow to publish the package to NPM
 name: Publish to NPM
 
 on:
@@ -7,8 +7,6 @@ on:
     tags:
       - 'v*.*.*'
       - '*.*.*'
-  # Allows manual trigger via "Actions" tab
-  workflow_dispatch:
 
 permissions:
   contents: read
