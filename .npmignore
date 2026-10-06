@@ -1,12 +1,4 @@
 #! ======================================================================== !#
-#! For user-specific ignores we recommend creating a separate user.gitignore
-#!   file instead of modifying this repository-specific .gitignore file.
-#!
-#!   Then make sure to configure Git to use it locally:
-#!      git config --local core.excludesFile user.gitignore
-#! ======================================================================== !#
-
-#! ======================================================================== !#
 #! Make sure the .npmignore file is the same as this .gitignore file
 #! ======================================================================== !#
 
