@@ -1,0 +1,27 @@
+{
+  "name": "@noahbleau/winfio",
+  "version": "1.0.0",
+  "description": "A mock implementation for RPI-IO on Windows for Node.js",
+  "keywords": [
+    "mock",
+    "rpi-io"
+  ],
+  "homepage": "https://github.com/noahbleau/WinFIO#readme",
+  "bugs": {
+    "url": "https://github.com/noahbleau/WinFIO/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahbleau/WinFIO.git"
+  },
+  "license": "MIT",
+  "author": "Noah Bleau <noah@hexoraw.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
